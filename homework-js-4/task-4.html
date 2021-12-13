@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Очистите элемент</title>
+</head>
+<body>
+<ol id="elem">
+    <li>Привет</li>
+    <li>Мир</li>
+</ol>
+<script>
+    let elem = document.querySelector('#elem');
+    function clear(elem) {
+        /* ваш код */
+        elem.innerHTML = '';
+    }
+    clear(elem); // очищает список
+</script>
+</body>
+</html>
